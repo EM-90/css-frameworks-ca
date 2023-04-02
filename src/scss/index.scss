@@ -6,6 +6,11 @@
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
 // Then add additional custom code here
+
+.body {
+  padding-top: $padding-for-sticky-nav;
+}
+
 .btn-primary {
   background-color: $primary;
 }
@@ -29,6 +34,10 @@
 
 .fa-magnifying-glass {
   color: white;
+}
+
+.register-link {
+  color: $register-link-color;
 }
 
 /*.image-container {
